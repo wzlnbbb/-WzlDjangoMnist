@@ -1,2 +1,2 @@
 # -WzlDjangoMnist
-大四项目
+django初学，mnist项目代码
