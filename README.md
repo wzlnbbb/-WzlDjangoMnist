@@ -1,0 +1,2 @@
+# -WzlDjangoMnist
+django pytorch mnist
