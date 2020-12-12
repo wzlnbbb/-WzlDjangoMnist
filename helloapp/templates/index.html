@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="{% url 'index' %}" enctype="multipart/form-data" method="post">
+    {% csrf_token %}
+    {% for field in form %}
+        {{ field.label }}
+        {{ field }}
+    {% endfor %}
+
+    <br><br><br>
+
+    <button type="submit" value="Login">上传并预测</button>>
+    <p>{{ result }}</p>>
+</form>
+
+</body>
+</html>
